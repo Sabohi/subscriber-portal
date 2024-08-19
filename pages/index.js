@@ -22,7 +22,7 @@ export default function Home() {
       <Nav>This is my nav from subscriber app</Nav>
       <main className={`${styles.main} ${inter.className}`}>
         <h1 className={styles.title}>
-          Welcome to the subsriber app port: 3000
+          Welcome to the subsriber app
         </h1>
         <Link href="/travelAdvisor">Go to travel advisor</Link>
         Destination component from travel advisor
