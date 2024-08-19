@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   webpack: (config, options) => {
     const { isServer } = options;
-    config.experiments = { topLevelAwait: true };
+    // config.experiments = { topLevelAwait: true, layers: false };
     config.plugins.push(
       new NextFederationPlugin({
         name: 'subscriberApp',
