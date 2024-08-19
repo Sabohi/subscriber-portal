@@ -25,7 +25,7 @@ export default function Home() {
           Welcome to the subsriber app port: 3000
         </h1>
         <Link href="/travelAdvisor">Go to travel advisor</Link>
-        Component from travel advisor
+        Destination component from travel advisor
         <DestinationComponent />
       </main>
       <Footer />
